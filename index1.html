@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RPS Arena</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+  <header>
+    <h1>RPS Arena</h1>
+  </header>
+
+  <main>
+
+    <section id="status">
+      <p>Current Turn: <strong id="current-player">Player 1</strong></p>
+      <p id="message"></p>
+    </section>
+
+    <section id="game-board">
+      <button class="cell" data-index="0"></button>
+      <button class="cell" data-index="1"></button>
+      <button class="cell" data-index="2"></button>
+
+      <button class="cell" data-index="3"></button>
+      <button class="cell" data-index="4"></button>
+      <button class="cell" data-index="5"></button>
+
+      <button class="cell" data-index="6"></button>
+      <button class="cell" data-index="7"></button>
+      <button class="cell" data-index="8"></button>
+    </section>
+
+    <section id="controls">
+      <h2>Select Symbol</h2>
+      <button data-symbol="rock">Rock</button>
+      <button data-symbol="paper">Paper</button>
+      <button data-symbol="scissors">Scissors</button>
+    </section>
+
+    <section id="reset">
+      <button id="reset-btn">Reset Game</button>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>RPS Arena – Turn-Based Strategy Game</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
